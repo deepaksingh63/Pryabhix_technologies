@@ -8,8 +8,12 @@ export default function Home() {
         <div className="wrap hero-grid">
           <div>
             <div className="eyebrow">available for new projects — 2026</div>
-            <h1>We Build Websites That Turn <span>Ideas</span> Into Digital Experiences.</h1>
-            <p className="lead">From business websites to powerful web applications, we design and develop fast, responsive and scalable digital solutions for businesses and startups.</p>
+           <h1>Web Development Company in <span>Gorakhpur</span></h1>
+            <p className="lead">
+  Pryabhix Technologies is a web and software development company in Gorakhpur.
+  We build fast, responsive websites, React JS applications, web applications
+  and custom software solutions for businesses and startups.
+</p>
             <div className="hero-actions">
               <Link to="/contact" className="cta-btn">Start Your Project</Link>
               <Link to="/portfolio" className="cta-ghost">View Our Work</Link>
@@ -39,8 +43,11 @@ export default function Home() {
         <div className="wrap">
           <div className="sec-head">
             <div className="eyebrow">what we build</div>
-            <h2>Custom digital solutions, built around your goals</h2>
-            <p>A few of the things we build most often — see the full list on the Services page.</p>
+           <h2>Website & Software Development Services</h2>
+           <p>
+  We provide website development, React JS development, web application
+  development and custom software solutions for businesses and startups.
+</p>
           </div>
           <div className="services-grid">
             {SERVICES.slice(0, 3).map((s) => (
